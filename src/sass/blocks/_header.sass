@@ -1,0 +1,39 @@
+.company
+  background-color: #0766f5
+  height: 76px
+  &-content
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 5px 0
+    &__logo
+      a
+        font-family: Lobster, sans-serif
+        font-size: 35px
+        color: #212529
+        text-decoration: none
+      
+        &::before
+          content: ''
+          display: inline-block
+          margin-right: 20px
+          height: 45px
+          width: 45px
+          padding-top: 10px
+          background: url(../images/plate.svg) center  left/cover  no-repeat
+          transform: translateY(8px)
+          
+    &__discr
+      font-size: 22px
+      font-weight: bold
+    &__phone
+      display: block  
+      text-decoration: none
+      font-size: 22px
+      font-weight: bold
+      color: #212529
+      &:hover
+        color: #fff
+        text-decoration: none
+  
+    

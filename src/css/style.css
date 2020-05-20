@@ -1,3 +1,133 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,  sans-serif;
+}
+
+.wrapper img {
+  max-height: 500px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+main {
+  background-color: #4b1818;
+}
+
+main h1 {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 40px 0;
+}
+
+.company {
+  background-color: #0766f5;
+  height: 76px;
+}
+
+.company-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.company-content__logo a {
+  font-family: Lobster, sans-serif;
+  font-size: 35px;
+  color: #212529;
+  text-decoration: none;
+}
+
+.company-content__logo a::before {
+  content: '';
+  display: inline-block;
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+  padding-top: 10px;
+  background: url(../images/plate.svg) center left/cover no-repeat;
+  transform: translateY(8px);
+}
+
+.company-content__discr {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.company-content__phone {
+  display: block;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #212529;
+}
+
+.company-content__phone:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  background-color: #0766f5;
+  margin-top: 30px;
+  height: 62.8px;
+}
+
+.content-navigation__list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.content-navigation__link {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  color: #212529;
+  padding: 15px;
+}
+
+.content-navigation__link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.food {
+  margin-top: 40px;
+}
+
+.food-title {
+  font-family: Lobster, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+}
+
+.quant {
+  display: inline-block;
+  padding-top: 30px;
 }
